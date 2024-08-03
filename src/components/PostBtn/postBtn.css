@@ -1,0 +1,19 @@
+.post-btn{
+    width: 90%;
+    cursor: pointer;
+    font-size: 16px;
+    background: var(--buttonBg);
+    color: #FFF;
+    font-weight: 600;
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box; 
+    transition: all 0.3s ease;
+    margin-left: 3px; 
+  }
+  
+  .post-btn:hover {
+    color: #03346E;
+    background: #FFF;
+    outline: 0.5px solid #03346E;
+  }
