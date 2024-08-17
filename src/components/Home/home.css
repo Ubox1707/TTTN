@@ -1,0 +1,21 @@
+.home{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    font-size: 16x;
+}
+.home:hover {
+    background-color: var(--hoverRange);
+    border-radius: 8px;
+    transition: all 0.3s ease;     
+}
+
+.home-title{
+    line-height: 1rem;
+}
+
+.home-icon{
+    width: 3rem;
+    height: 3rem;
+}

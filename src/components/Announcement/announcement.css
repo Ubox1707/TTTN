@@ -1,0 +1,21 @@
+.announcement{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    font-size: 16px;
+}
+.announcement:hover{
+    background-color: var(--hoverRange);
+    border-radius: 8px;
+    transition: all 0.3s ease; 
+}
+.bell-title{
+    line-height: 1rem;
+}
+
+
+.bell-icon{
+    width: 3rem;
+    height: 3rem;
+}

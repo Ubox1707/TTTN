@@ -1,0 +1,124 @@
+.profile-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+  
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--cardColor);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    width: 90%;
+    height: 90%;
+}
+.pm-title{
+    margin: 0;
+}
+  
+.close-modal {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.close-modal img {
+    width: 100%;
+    height: 100%;
+}
+.pm-nickname{
+    display: flex;
+}
+.pm-1 {
+    display: flex;
+    gap: 1rem;
+}
+.info-input {
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 1rem;
+}
+
+
+.live-in,
+.work-at,
+.relationship {
+    width: 100%;
+}
+.pm-relationship select {
+    position: relative;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.profile-pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.work-at, .pm-email{
+    display: flex;
+}
+.update-photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.update-photo>img{
+    width:8rem;
+    height: 8rem;
+}
+.update-img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 4px;
+}
+.avatar-btn{
+    margin-top: 12px;
+    padding: 8px;
+    background: linear-gradient(.25turn, #793FDF, 10%, #7091F5);
+}
+.background-btn{
+    margin-top: 12px;
+    padding: 8px;
+    background: linear-gradient(.25turn, #FFA1F5, 10%, #BC7AF9);
+}
+.update-btn{
+    display: flex;
+    width: 20%;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-left: 40%;
+}
