@@ -1,8 +1,0 @@
-.RightSide{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    align-items: flex-start;
-    overflow: auto;
-    border-left: 1px solid var(--hrColor);
-}
